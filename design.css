@@ -8,16 +8,16 @@ div {
 }
 
 .flex-container{
-    flex-direction: column;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
 }
 
 .sub-div{
-    flex-direction: row;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: start;
@@ -27,9 +27,9 @@ div {
 }
 
 .small-div{
+    display: flex;
     color: white;
     flex-direction: column;
-    display: flex;
     justify-content: center;
     align-items: center;
     background-color: #0e4a80;
@@ -38,6 +38,8 @@ div {
 }
 
 .navbar {
+    align-items: center;
+    width: 100%;
     flex-direction: row;
     display: flex;
     overflow: hidden;
