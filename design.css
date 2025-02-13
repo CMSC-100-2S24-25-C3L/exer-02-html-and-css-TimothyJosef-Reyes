@@ -1,0 +1,40 @@
+.flex-container{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.sub-div{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: pink;
+    border: 2px solid black;
+    padding: 20px;
+    width: 100%;
+}
+
+.small-div{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: teal;
+    border: 2px solid black;
+    padding: 20px;
+    width: 40%;
+}
+
+img{
+    width: 10%;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
