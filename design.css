@@ -1,6 +1,10 @@
 body{
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Helvetica, sans-serif;
+}
+
+div {
+    text-align: center;
 }
 
 .flex-container{
@@ -16,37 +20,47 @@ body{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    align-items: center;
-    background-color: pink;
-    border: 2px solid black;
-    padding: 20px;
+    align-items: start;
+    background-color: #158fd4;
+    padding: 10px;
     width: 100%;
 }
 
 .small-div{
+    color: white;
     flex-direction: column;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     align-items: center;
-    background-color: teal;
-    border: 2px solid black;
-    padding: 20px;
+    background-color: #0e4a80;
+    padding: 10px;
     width: 40%;
 }
 
 .navbar {
+    flex-direction: row;
+    display: flex;
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
 }
   
 .navbar a {
-    float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 12px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+  background-color: white;
+  color: black;
+}
+
+a{
+    color: black;
+    text-align: center;
+    text-decoration: none;
 }
 
 ul {
@@ -55,8 +69,15 @@ ul {
     padding: 0;
 }
 
+#logo{
+    float: left;
+    width: 5%;
+    border: none;
+}
+
 img{
-    width: 10%;
+    width: 20%;
+    border: 5px solid white;
 }
 
 h1 {
